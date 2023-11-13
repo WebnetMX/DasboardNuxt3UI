@@ -1,24 +1,31 @@
 <script lang="ts" setup>
+
+  const links = [
+    {
+      label: 'Home',
+      to: '/'
+    }, {
+      label: 'About',
+      to: '/about',
+      children: [
+        {
+          label: 'About Us',
+          to: '/about/us'
+        }, {
+          label: 'About You',
+          to: '/about/you'
+        }
+      ]
+    }
+
+  ]
 </script>
 
 <template>
-  <AppHeader />
   <UContainer>
-    <div class="container lg:grid lg:grid-cols-12 lg:gap-10">
-      <Aside />
+    <div class="flex flex-col lg:grid lg:grid-cols-10 lg:gap-8">
       <!-- Main Section -->
-      <main class="lg:col-span-9">
-        <UCard class="mt-10">
-          <template #header>
-            <div class="flex justify-between">
-              <h1>Welcome to Nuxt UI Starter</h1>
-              <ColorScheme>
-                <USelect v-model="$colorMode.preference" :options="['system', 'light', 'dark']" />
-              </ColorScheme>
-            </div>
-          </template>
-        </UCard>
-      </main>
+      <NavigationTree :links="links"/>
     </div>
   </UContainer>
 </template>
