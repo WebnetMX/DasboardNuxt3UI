@@ -1,24 +1,24 @@
 <script lang="ts" setup>
-
+  import type { Link } from '@webnet-mx/ui-layer-admin/types'
   const links = [
     {
       label: 'Home',
-      to: '/'
+      to: '/',
+      icon: 'i-heroicons-document-magnifying-glass'
     }, {
       label: 'About',
       to: '/about',
       children: [
         {
           label: 'About Us',
-          to: '/about/us'
+          to: '/links/us'
         }, {
           label: 'About You',
-          to: '/about/you'
+          to: '/links/you'
         }
       ]
     }
-
-  ]
+  ] as Link[]
 </script>
 
 <template>
