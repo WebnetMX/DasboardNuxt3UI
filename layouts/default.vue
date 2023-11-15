@@ -7,7 +7,6 @@
     bodyAttrs: {
       class: 'h-full antialiased',
     },
-
   })
 </script>
 
