@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   routeRules: {
-    '/admin/**': { isr: true },
+    admin: { ssr: false },
+    //'/admin/**': { isr: true },
   }
 })
