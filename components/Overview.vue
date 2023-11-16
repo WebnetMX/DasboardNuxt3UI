@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { VisAxis, VisStackedBar, VisXYContainer, VisTooltip } from '@unovis/vue'
 import { StackedBar } from "@unovis/ts";
+import { VisAxis, VisStackedBar, VisTooltip, VisXYContainer } from '@unovis/vue'
 
 type Data = typeof data[number]
 const data = [
@@ -19,7 +19,7 @@ const data = [
 ]
 
 const triggers = {
-  [StackedBar.selectors.bar]: (d: Data) => `Total: ${d.total}`,
+  [StackedBar.selectors.bar]: (d: Data) => `<span class="text-xs">Total: ${d.total}</span>`,
 }
 </script>
 
