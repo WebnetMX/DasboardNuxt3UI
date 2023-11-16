@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { VisAxis, VisStackedBar, VisXYContainer, VisTooltip } from '@unovis/vue'
-import {StackedBar} from "@unovis/ts";
+import { StackedBar } from "@unovis/ts";
 
 type Data = typeof data[number]
 const data = [
@@ -24,11 +24,13 @@ const triggers = {
 </script>
 
 <template>
-  <VisXYContainer height="350px" :margin="{ left: 20, right: 20 }" :data="data">
+  <VisXYContainer
+    height="350px"
+    :margin="{ left: 20, right: 20 }" :data="data"
+  >
     <VisStackedBar
       :x="(d: Data, i: number) => i"
       :y="(d: Data) => d.total"
-      color="#41b883"
       :rounded-corners="4"
       :bar-padding="0.15"
     />

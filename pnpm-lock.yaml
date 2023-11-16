@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^0.5.7
     version: 0.5.7(tailwindcss@3.3.5)
   '@webnet-mx/ui-layer-admin':
-    specifier: ^0.0.6
-    version: 0.0.6(@unovis/ts@1.2.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0)
+    specifier: ^0.0.7
+    version: 0.0.7(@unovis/ts@1.2.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0)
   nuxt:
     specifier: ^3.8.1
     version: 3.8.1(sass@1.69.5)(vite@4.5.0)
@@ -2750,8 +2750,8 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@webnet-mx/ui-layer-admin@0.0.6(@unovis/ts@1.2.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0):
-    resolution: {integrity: sha512-TqLlio9ITvchoOSYthtYrbIf3PLbu9nqDFrjdwY3vWfh/MlVub9RtU/IRqL8nKEYfrgcy8onyoOvWS7THjv0Og==}
+  /@webnet-mx/ui-layer-admin@0.0.7(@unovis/ts@1.2.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0):
+    resolution: {integrity: sha512-gzmszjyFDSBhYkik0HRbOsbAcDWqBMy97jD6fT739lTcsxjpnhL6Ze17s4jAw5LzjKSJEdMHzwDC3w1ts8gF7A==}
     requiresBuild: true
     dependencies:
       '@nuxt/ui': 2.10.0(vue@3.3.8)(webpack@5.89.0)
