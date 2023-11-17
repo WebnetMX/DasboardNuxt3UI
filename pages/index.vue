@@ -22,12 +22,10 @@
 </script>
 
 <template>
-  <UContainer>
-    <div class="flex flex-col lg:grid lg:grid-cols-10 lg:gap-8">
-      <!-- Main Section -->
-      <NavigationTree :links="links"/>
-    </div>
-  </UContainer>
+  <div class="flex flex-col lg:grid lg:grid-cols-10 lg:gap-8">
+    <!-- Main Section -->
+    <NavigationTree :links="links"/>
+  </div>
 </template>
 
 <style scoped></style>

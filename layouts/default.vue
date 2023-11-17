@@ -19,13 +19,16 @@
     <SidebarDesktop />
 
     <div class="lg:pl-72">
-      <AppHeader />
+      <UContainer>
+        <AppHeader />
+      </UContainer>
+
 
       <main class="py-10">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <UContainer>
           <!-- Your content -->
           <slot />
-        </div>
+        </UContainer>
       </main>
     </div>
   </div>
