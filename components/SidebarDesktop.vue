@@ -1,4 +1,35 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const items = [
+  {
+    label: 'Dashboard',
+    to: '/',
+    icon: 'i-heroicons-home'
+  }, {
+    label: 'Team',
+    to: '/admin',
+    icon: 'i-heroicons-users'
+  }, {
+    label: 'Projects',
+    to: '/projects',
+    icon: 'i-heroicons-folder',
+    children: [
+      {
+        label: 'Calendar',
+        to: '/links/11',
+        icon: 'i-heroicons-calendar'
+      }, {
+        label: 'Documents',
+        to: '/links/22',
+        icon: 'i-heroicons-document-text'
+      }
+    ]
+  }, {
+    label: 'Reports',
+    to: '/reports',
+    icon: 'i-heroicons-chart-pie'
+  }
+]
+</script>
 
 <template>
   <div class="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
@@ -14,6 +45,11 @@
           Admin <span class="underline font-bold decoration-indigo-500">UI</span>
         </ULink>
       </div>
+
+      <NavigationTree :links="items" />
+
+      <UDivider class="my-1" icon="i-heroicons-arrow-path-rounded-square" />
+
       <nav class="flex flex-1 flex-col">
         <ul role="list" class="flex flex-1 flex-col gap-y-7">
           <li>

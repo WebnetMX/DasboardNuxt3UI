@@ -27,7 +27,6 @@
 <template>
   <div class="flex-1 space-y-4 sm:px-0 pt-6">
     <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-
       <Card
         v-for="card in cards"
       >

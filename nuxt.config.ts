@@ -3,9 +3,5 @@ export default defineNuxtConfig({
   extends: ["@webnet-mx/ui-layer-admin"],
   css: ["~/assets/css/main.scss"],
   devtools: { enabled: true },
-
-  routeRules: {
-    admin: { ssr: false },
-    //'/admin/**': { isr: true },
-  }
+  ssr: false,
 })
