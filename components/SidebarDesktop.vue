@@ -25,7 +25,7 @@ const items = [
     ]
   }, {
     label: 'Reports',
-    to: '/reports',
+    to: '/links/33',
     icon: 'i-heroicons-chart-pie'
   }
 ]
@@ -46,7 +46,10 @@ const items = [
         </ULink>
       </div>
 
-      <NavigationTree :links="items" />
+      <NavigationTree
+        :links="items"
+        :default-open="false"
+      />
 
       <UDivider class="my-1" icon="i-heroicons-arrow-path-rounded-square" />
 

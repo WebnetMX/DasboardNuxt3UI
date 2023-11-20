@@ -6,10 +6,10 @@ export default defineAppConfig({
       center: true,
       constrained: "max-w-7xl lg:max-w-7xl xl:max-w-full"
     },
-    presets: {
-      navigation: {
-        links: "flex items-center hover:text-gray-900 dark:hover:text-gray-100",
-      }
-    }
+    navigation: {
+      links: {
+        base: "hover:text-primary dark:hover:bg-gray-800/50 rounded-r-md",
+      },
+    },
   }
 })
