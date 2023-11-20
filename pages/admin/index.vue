@@ -22,6 +22,10 @@
       icon: 'i-heroicons-chart-bar'
     }
   ]
+
+  useHead({
+    title: 'Dashboard - Nuxt UI',
+  })
 </script>
 
 <template>
