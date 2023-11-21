@@ -43,7 +43,7 @@ const items = [
           <label for="search-field" class="sr-only">Search</label>
           <UIcon
             name="i-heroicons-magnifying-glass"
-            class="pointer-events-none absolute inset-y-0 left-0 h-full w-5 text-gray-400"
+            class="pointer-events-none absolute inset-y-0 left-0 h-full w-5 h-5 text-gray-400"
           />
           <input
             id="search-field"
