@@ -39,11 +39,11 @@ const items = [
       <div class="h-6 w-px bg-gray-200 lg:hidden" aria-hidden="true"></div>
 
       <div class="flex flex-1 gap-x-4 self-stretch lg:gap-x-6">
-        <form class="relative flex flex-1" action="#" method="GET">
+        <form class="relative flex flex-1 items-center" action="#" method="GET">
           <label for="search-field" class="sr-only">Search</label>
           <UIcon
             name="i-heroicons-magnifying-glass"
-            class="pointer-events-none absolute inset-y-0 left-0 h-full w-5 h-5 text-gray-400"
+            class="pointer-events-none absolute inset-y-0 left-0 w-5 h-5 text-gray-400"
           />
           <input
             id="search-field"
