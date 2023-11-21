@@ -70,7 +70,10 @@ const items = [
               :popper="{ placement: 'bottom-start' }"
             >
               <div class="flex items-center py-0.5">
-                <UAvatar src="https://avatars.githubusercontent.com/u/1900503?v=4" />
+                <UAvatar
+                  src="https://avatars.githubusercontent.com/u/1900503?v=4"
+                  alt="Avatar"
+                />
                 <UButton
                   color="white"
                   variant="ghost"
