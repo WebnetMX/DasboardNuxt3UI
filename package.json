@@ -16,6 +16,7 @@
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.9.0",
     "@tailwindcss/forms": "^0.5.7",
+    "@vite-pwa/nuxt": "^0.2.3",
     "@webnet-mx/ui-layer-admin": "^0.0.14",
     "eslint": "^8.54.0",
     "nuxt": "^3.8.2",
