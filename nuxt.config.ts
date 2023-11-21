@@ -6,6 +6,14 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.scss"],
   devtools: { enabled: true },
   modules: ["@vite-pwa/nuxt"],
-
   pwa,
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "es-MX",
+      },
+      titleTemplate: "%s - Tutti Travel (MX)",
+      title: "Reserva de hoteles y departamentos en México",
+    },
+  }
 })
