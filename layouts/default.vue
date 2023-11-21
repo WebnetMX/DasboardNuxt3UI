@@ -26,7 +26,6 @@
 
       <main class="py-10">
         <UContainer>
-          <!-- Your content -->
           <slot />
         </UContainer>
       </main>
