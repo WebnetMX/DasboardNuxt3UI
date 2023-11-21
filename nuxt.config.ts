@@ -12,8 +12,8 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "es-MX",
       },
-      titleTemplate: "%s - Tutti Travel (MX)",
-      title: "Reserva de hoteles y departamentos en México",
+      titleTemplate: "%s - Admin UI",
+      title: "Admin UI - Webnet",
     },
   }
 })
