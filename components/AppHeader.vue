@@ -39,7 +39,7 @@ const items = [
       <div class="h-6 w-px bg-gray-200 lg:hidden" aria-hidden="true"></div>
 
       <div class="flex flex-1 gap-x-4 self-stretch lg:gap-x-6">
-        <form class="relative flex flex-1 items-center" action="#" method="GET">
+        <form class="relative flex flex-1" action="#" method="GET">
           <label for="search-field" class="sr-only">Search</label>
           <UIcon
             name="i-heroicons-magnifying-glass"
