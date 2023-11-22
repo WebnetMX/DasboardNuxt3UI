@@ -24,8 +24,8 @@ devDependencies:
     specifier: ^0.2.3
     version: 0.2.3(@nuxt/kit@3.8.2)(vite-plugin-pwa@0.17.0)
   '@webnet-mx/ui-layer-admin':
-    specifier: ^0.0.17
-    version: 0.0.17(@unovis/ts@1.2.1)(rollup@2.79.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0)
+    specifier: ^0.0.18
+    version: 0.0.18(@unovis/ts@1.2.1)(rollup@2.79.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0)
   eslint:
     specifier: ^8.54.0
     version: 8.54.0
@@ -2802,6 +2802,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     dev: true
     bundledDependencies:
       - napi-wasm
@@ -4374,8 +4375,8 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@webnet-mx/ui-layer-admin@0.0.17(@unovis/ts@1.2.1)(rollup@2.79.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0):
-    resolution: {integrity: sha512-z1pQWcXuCghuULo4Vv+wixDAq4T5XBiino2/XnpLF1mGY3gYJmgZfUS3v1vq/kdabn8SdnW2FCGlH7a78YcmNQ==}
+  /@webnet-mx/ui-layer-admin@0.0.18(@unovis/ts@1.2.1)(rollup@2.79.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0):
+    resolution: {integrity: sha512-e6Lu+NY4i+c8uhR08gNNJ2dKITnzSxzYa5xS7TsjmNY2NV6vwd2hrNNaExuX/qAGmtJj+2SvpCQ7wLwqfZG5Wg==}
     requiresBuild: true
     dependencies:
       '@nuxt/ui': 2.10.0(rollup@2.79.1)(vue@3.3.8)(webpack@5.89.0)
@@ -8545,6 +8546,10 @@ packages:
     resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==}
     engines: {node: ^14 || ^16 || >=18}
     hasBin: true
+    dev: true
+
+  /napi-wasm@1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
     dev: true
 
   /natural-compare-lite@1.4.0:
