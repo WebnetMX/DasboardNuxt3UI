@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+
 interface TableColumn {
   key: any
   label: string

@@ -50,6 +50,10 @@ const items = [
           />
         </form>
         <div class="flex items-center gap-x-4 lg:gap-x-6">
+
+          <!-- Notification button -->
+          <ColorModeToggle />
+
           <button
             type="button" class="-m-2.5 p-2.5 text-gray-400 hover:text-gray-500"
           >
