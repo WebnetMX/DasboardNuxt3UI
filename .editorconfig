@@ -16,3 +16,6 @@ tab_width = 2
 
 [*.{toml,yml}]
 indent_size = 2
+
+[*.{scss,css}]
+indent_size = 2

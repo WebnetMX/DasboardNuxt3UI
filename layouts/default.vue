@@ -2,7 +2,7 @@
   useHead({
     htmlAttrs: {
       lang: 'en',
-      class: 'h-full bg-white dark:bg-gray-800',
+      class: 'h-full bg-white dark:bg-background',
     },
     bodyAttrs: {
       class: 'h-full antialiased',
