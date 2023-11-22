@@ -24,8 +24,8 @@ devDependencies:
     specifier: ^0.2.3
     version: 0.2.3(@nuxt/kit@3.8.2)(vite-plugin-pwa@0.17.0)
   '@webnet-mx/ui-layer-admin':
-    specifier: ^0.0.16
-    version: 0.0.16(@unovis/ts@1.2.1)(rollup@2.79.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0)
+    specifier: ^0.0.17
+    version: 0.0.17(@unovis/ts@1.2.1)(rollup@2.79.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0)
   eslint:
     specifier: ^8.54.0
     version: 8.54.0
@@ -4375,8 +4375,8 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@webnet-mx/ui-layer-admin@0.0.16(@unovis/ts@1.2.1)(rollup@2.79.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0):
-    resolution: {integrity: sha512-5vk1DsSdT9mo1OstOJd0BDgix/z2wvRV27WCCgdYpSpHSA/8/OPUOdN+VzuATSjgUJ7fphe8E8FCLmDQEFUfLQ==}
+  /@webnet-mx/ui-layer-admin@0.0.17(@unovis/ts@1.2.1)(rollup@2.79.1)(tailwindcss@3.3.5)(vue@3.3.8)(webpack@5.89.0):
+    resolution: {integrity: sha512-z1pQWcXuCghuULo4Vv+wixDAq4T5XBiino2/XnpLF1mGY3gYJmgZfUS3v1vq/kdabn8SdnW2FCGlH7a78YcmNQ==}
     requiresBuild: true
     dependencies:
       '@nuxt/ui': 2.10.0(rollup@2.79.1)(vue@3.3.8)(webpack@5.89.0)
