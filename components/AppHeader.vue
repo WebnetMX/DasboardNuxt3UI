@@ -47,7 +47,7 @@ const items = [
           <input
             id="search-field"
             class="block h-full w-full border-0 py-0 pl-8 pr-0 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm focus:outline-none focus:ring-offset-0" placeholder="Search..." type="search" name="search"
-          >
+          />
         </form>
         <div class="flex items-center gap-x-4 lg:gap-x-6">
           <button
