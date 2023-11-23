@@ -1,5 +1,4 @@
 import type { ModuleOptions } from '@vite-pwa/nuxt'
-
 export const pwa: ModuleOptions = {
   manifest: {
     name: 'Webnet Admin',
