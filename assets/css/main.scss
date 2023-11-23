@@ -81,3 +81,14 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+.dropdown-enter-active,
+.dropdown-leave-active {
+  transition: all 0.2s ease-in-out;
+}
+
+.dropdown-enter-from,
+.dropdown-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
