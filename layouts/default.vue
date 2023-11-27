@@ -2,7 +2,7 @@
   useHead({
     htmlAttrs: {
       lang: 'en',
-      class: 'h-full bg-white dark:bg-background',
+      class: 'h-full bg-background dark:bg-background',
     },
     bodyAttrs: {
       class: 'h-full antialiased',
@@ -16,13 +16,10 @@
     <SidebarMobile />
 
     <!-- Static sidebar for desktop -->
-    <SidebarDesktop />
+    <SidebarDesktopMenu />
 
     <div class="lg:pl-72">
-      <UContainer>
-        <AppHeader />
-      </UContainer>
-
+      <AppHeader />
 
       <main class="py-10">
         <UContainer>

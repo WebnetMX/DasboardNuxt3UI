@@ -29,8 +29,10 @@ const items = [
 </script>
 
 <template>
-  <div class="sticky top-0 z-40">
-    <div class="flex h-16 items-center gap-x-4 border-b border-gray-200 dark:border-muted px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-0 lg:shadow-none">
+  <UContainer
+    class="sticky top-0 z-40 bg-background dark:bg-background backdrop-filter backdrop-blur-lg bg-opacity-60 dark:bg-opacity-60"
+  >
+    <div class="flex h-16 items-center gap-x-4 dark:border-muted px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-0 lg:shadow-none">
       <button type="button" class="-m-2.5 p-2.5 text-gray-700 lg:hidden">
         <span class="sr-only">Open sidebar</span>
         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -82,7 +84,7 @@ const items = [
         </div>
       </div>
     </div>
-  </div>
+  </UContainer>
 </template>
 
 <style scoped></style>

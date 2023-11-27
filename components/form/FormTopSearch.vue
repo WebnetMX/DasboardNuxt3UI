@@ -8,7 +8,7 @@
     <IconHeroiconsMagnifyingGlass />
     <input
       id="search-field"
-      class="block h-full w-full border-0 py-0 pl-8 pr-0 text-gray-900 dark:bg-background placeholder:text-gray-400 focus:ring-0 sm:text-sm focus:outline-none focus:ring-offset-0" placeholder="Search..." type="search" name="search"
+      class="block h-full w-full border-0 py-0 pl-8 pr-0 text-gray-900 bg-background dark:bg-background placeholder:text-gray-400 focus:ring-0 sm:text-sm focus:outline-none focus:ring-offset-0" placeholder="Search..." type="search" name="search"
     />
   </form>
 </template>

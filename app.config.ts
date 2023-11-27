@@ -8,8 +8,8 @@ export default defineAppConfig({
     },
     accordion: {
       transition: {
-        enterActiveClass: "overflow-hidden transition-[height] duration-200 ease-out",
-        leaveActiveClass: "overflow-hidden transition-[height] duration-200 ease-out"
+        enterActiveClass: "accordion-down",
+        leaveActiveClass: "accordion-up"
       },
     },
     navigation: {

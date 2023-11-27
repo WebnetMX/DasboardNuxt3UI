@@ -1,6 +1,7 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 import { fontFamily } from "tailwindcss/defaultTheme";
 import scrollbar from "tailwind-scrollbar";
+import tailwindcssAnimate from 'tailwindcss-animate';
 
 export default {
   content: [],
@@ -71,6 +72,7 @@ export default {
     },
   },
   plugins: [
+    tailwindcssAnimate,
     scrollbar({ nocompatible: true }),
   ],
 } satisfies Config
