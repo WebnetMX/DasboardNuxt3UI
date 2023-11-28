@@ -16,7 +16,7 @@
     <SidebarMobile />
 
     <!-- Static sidebar for desktop -->
-    <SidebarDesktopMenu />
+    <SidebarDesktopMenuUpdated />
 
     <div class="lg:pl-72">
       <AppHeader />
