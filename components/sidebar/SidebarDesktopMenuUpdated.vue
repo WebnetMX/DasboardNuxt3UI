@@ -29,8 +29,8 @@ const settingsLinks = [
 
 const defaultConfig = {
   wrapper: "relative space-y-1 my-2",
-  base: "group relative flex items-center gap-2 focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:before:ring-inset focus-visible:before:ring-1 focus-visible:before:ring-primary-500 dark:focus-visible:before:ring-primary-400 before:absolute before:inset-px before:rounded-none disabled:cursor-not-allowed disabled:opacity-75",
-  padding: "px-3 py-2",
+  base: "relative flex items-center gap-2 focus:outline-none focus-visible:outline-none dark:focus-visible:outline-none focus-visible:before:ring-inset focus-visible:before:ring-1 focus-visible:before:ring-primary-500 dark:focus-visible:before:ring-primary-400 before:absolute before:inset-px before:rounded-none disabled:cursor-not-allowed disabled:opacity-75",
+  padding: "px-4 py-2",
   active: "text-gray-900 dark:text-white before:bg-background dark:before:bg-gray-800",
   rounded: "rounded-none",
   icon: {
