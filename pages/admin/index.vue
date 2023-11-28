@@ -23,6 +23,20 @@
     }
   ]
 
+  const links = [
+    {
+      title: "Customers",
+      icon: "heroicons:user-group",
+      items: [
+        { title: "List" },
+        { title: "Create" },
+        { title: "Edit" },
+        { title: "Delete" },
+        { title: "Details" },
+      ],
+    },
+  ]
+
   useHead({
     title: 'Dashboard - Nuxt UI',
   })
@@ -82,6 +96,14 @@
         </CardContent>
       </Card>
 
+      <Card>
+        <CardHeader>
+          <CardTitle>Navigation Accordion</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <SidebarItem :links="links"/>
+        </CardContent>
+      </Card>
     </div>
   </div>
 </template>

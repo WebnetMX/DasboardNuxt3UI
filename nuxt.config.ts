@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { pwa } from './config/pwa'
 export default defineNuxtConfig({
-  extends: ["@webnet-mx/ui-layer-admin"],
   ssr: false,
+  extends: ["@webnet-mx/ui-layer-admin"],
   css: ["~/assets/css/main.scss"],
   devtools: { enabled: true },
   modules: ["@vite-pwa/nuxt"],
@@ -19,8 +19,8 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "es-MX",
       },
-      titleTemplate: "%s - Admin UI",
-      title: "Admin UI - Webnet",
+      titleTemplate: "%s - Webnet",
+      title: "Admin UI Layer",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width,initial-scale=1" },
