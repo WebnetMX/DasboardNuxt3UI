@@ -2,6 +2,11 @@ import type { Config } from 'tailwindcss';
 import { fontFamily } from "tailwindcss/defaultTheme";
 import scrollbar from "tailwind-scrollbar";
 import tailwindcssAnimate from 'tailwindcss-animate';
+import plugin from "tailwindcss/plugin";
+
+const defaultPluginOptions = {
+  prefix: "yui"
+};
 
 export default {
   content: [],
@@ -72,6 +77,24 @@ export default {
     },
   },
   plugins: [
+    plugin(function ({ addComponents, config }) {
+      const prefix = defaultPluginOptions.prefix;
+      config("prefix", prefix);
+      config("important", true);
+      addComponents({
+        [`.${prefix}-focus`]: {
+          "@apply outline-1 outline-offset-2": {},
+          "@apply outline-transparent": {},
+          "&:focus-within": {
+            "@apply outline-slate-300 dark:outline-slate-600": {},
+            "@apply outline-dashed ring-0": {}
+          },
+          "&:focus-visible": {
+            "@apply outline-2": {}
+          }
+        }
+      });
+    }),
     tailwindcssAnimate,
     scrollbar({ nocompatible: true }),
   ],

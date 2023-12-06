@@ -96,7 +96,7 @@
         </CardContent>
       </Card>
 
-      <Card>
+      <Card class="col-span-2">
         <CardHeader>
           <CardTitle>Navigation Accordion</CardTitle>
         </CardHeader>
